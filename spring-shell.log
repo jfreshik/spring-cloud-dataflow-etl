@@ -1,0 +1,10 @@
+// dataflow 1.2.0.RELEASE log opened at 2020-07-23 17:30:05
+dataflow config server http://localhost
+dataflow config server http://localhost:9393
+// [failed] app import --uri http://bit.ly/Darwin-SR1-stream-applications-rabbit-maven
+exit
+// dataflow 1.2.0.RELEASE log closed at 2020-07-23 17:33:39
+// dataflow 1.2.0.RELEASE log opened at 2020-08-06 13:07:34
+dataflow config server http://localhost:9393
+exit
+// dataflow 1.2.0.RELEASE log closed at 2020-08-06 13:19:46

@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  mysql:
+    image: mariadb:10.5
+    container_name: dataflow-mariadb
+    environment:
+      MYSQL_DATABASE: dataflow
+      MYSQL_USER: dataflow
+      MYSQL_PASSWORD: dataflow
+      MYSQL_ROOT_PASSWORD: rootpw
+    ports:
+      - 3306:3306
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: dataflow-rabbit
+    ports:
+      - 5672:5672
+      - 15672:15672
