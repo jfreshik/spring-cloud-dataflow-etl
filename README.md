@@ -15,11 +15,17 @@ https://dataflow.spring.io/docs/installation/local/manual/
 ```shell
 wget https://repo.spring.io/release/org/springframework/cloud/spring-cloud-dataflow-server/2.5.3.RELEASE/spring-cloud-dataflow-server-2.5.3.RELEASE.jar
 wget https://repo.spring.io/release/org/springframework/cloud/spring-cloud-dataflow-shell/2.5.3.RELEASE/spring-cloud-dataflow-shell-2.5.3.RELEASE.jar
+wget wget https://repo.spring.io/release/org/springframework/cloud/spring-cloud-skipper-server/2.5.0/spring-cloud-skipper-server-2.5.0.jar
 ```
 
 ### download mysql connector (JDBC driver)
 ```
 https://www.mysql.com/products/connector/
+```
+
+### skipper start
+```
+$ java -jar spring-cloud-skipper-server-2.5.0.jar
 ```
 
 ### server start
